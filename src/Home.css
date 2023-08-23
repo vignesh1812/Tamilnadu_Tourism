@@ -1,0 +1,39 @@
+.contentpara{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.fsize{
+    font-weight: 500;
+}
+
+.fsizepara{
+    font-weight: 600;
+}
+
+.card{
+    width: 260px;
+}
+
+@media (max-width:768px){
+    .card{
+        width: 500px;
+    }   
+}
+@media (max-width:578px){
+    .card{
+        width: 350px;
+        
+    }   
+    #rameswarams{
+        padding-left: 25px;
+    }
+    #kanya{
+        padding-left: 25px;
+    }
+}
+@media (max-width:320px){
+    .card{
+        width: 300px;
+    }   
+}
