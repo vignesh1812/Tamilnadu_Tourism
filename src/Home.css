@@ -15,16 +15,60 @@
     width: 260px;
 }
 
+@media (max-width:1400px){
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:1300px){
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:1200px){
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:992px){
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
 @media (max-width:768px){
     .card{
         width: 500px;
-    }   
+    }  
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+
+    }
 }
 @media (max-width:578px){
     .card{
         width: 350px;
         
     }   
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+
     #rameswarams{
         padding-left: 25px;
     }
@@ -36,4 +80,13 @@
     .card{
         width: 300px;
     }   
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+  
 }
