@@ -61,8 +61,8 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div className='home container' id='homemain'>
-            <div id="carouselExampleIndicators" className="carousel slide mb-3" data-bs-ride="carousel">
+        <div className='home container-md' id='homemain'>
+            <div id="carouselExampleIndicators" className="carousel slide mb-5" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -96,47 +96,51 @@ const Home = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+            <br />
 
-            <p className='text-center fsizepara fs-4  m-0 text-capitalize' id='home'>tourist places to tamilnadu</p>
+            <p className='text-center fsizepara fs-4 m-0   text-capitalize' id='home'>tourist places to tamilnadu</p>
             <p className='text-center fsizepara fs-4  mb-5 text-capitalize'>here are the top places to visit in tamilnadu in 2023</p>
 
             <BrowserRouter>
-            <nav className='navlinks mb-4'>
-                <ul className='list-unstyled d-flex justify-content-lg-between justify-content-xs-between  flex-wrap  fs-5  '>
-                    <li className='mx-5 text-center fsize'>
-                        <HashLink smooth to='/#chennai' className="text-decoration-none text-primary " >Chennai</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                        <HashLink smooth to="/#kodaikanal" className="text-decoration-none text-primary " >Kodaikanal</HashLink>
-                    </li>
-                    <li className='mx-5 text-center  fsize'>
-                        <HashLink smooth to="/#madurai" className="text-decoration-none text-primary" >Madurai</HashLink>
+                <nav className='navlinks mb-4'>
+                    <ul className='list-unstyled fs-5  '>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to='/#chennai' className="text-decoration-none text-primary " >Chennai</HashLink>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#kodaikanal" className="text-decoration-none text-primary " >Kodaikanal</HashLink>
+                        </li>
+                        <li className='mx-5 text-center  fsize'>
+                            <HashLink smooth to="/#madurai" className="text-decoration-none text-primary" >Madurai</HashLink>
 
-                    </li>
-                    <li className='mx-5 text-center fsize'>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
 
-                        <HashLink smooth to="/#kumbakonam" className="text-decoration-none text-primary" >Kumbakonam</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                    <HashLink smooth to="/#theni" className="text-decoration-none " >Theni</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                    <HashLink smooth to="/#rameswaram" className="text-decoration-none text-primary " id='rameswarams'>Rameswaram</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                    <HashLink smooth to="/#ooty" className=" text-decoration-none text-primary" >Ooty</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                    <HashLink smooth to="/#KanyaKumari" className="text-decoration-none text-primary" id='kanya' >Kanyakumari</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                    <HashLink smooth to="/#yercaud" className="text-decoration-none text-primary " >Yercaud</HashLink>
-                    </li>
-                    <li className='mx-5 text-center fsize'>
-                    <HashLink smooth to="/#hogenakkal" className="text-decoration-none  text-primary" >Hogenakakal</HashLink>
-                    </li>
-                </ul>
-            </nav>
+                            <HashLink smooth to="/#kumbakonam" className="text-decoration-none text-primary" >Kumbakonam</HashLink>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#theni" className="text-decoration-none " >Theni</HashLink>
+                        </li>
+                    </ul>
+                    <ul  className='list-unstyled  fs-5  '>
+                        
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#rameswaram" className="text-decoration-none text-primary " >Rameswaram</HashLink>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#ooty" className=" text-decoration-none text-primary" >Ooty</HashLink>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#KanyaKumari" className="text-decoration-none text-primary"  >Kanyakumari</HashLink>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#yercaud" className="text-decoration-none text-primary " >Yercaud</HashLink>
+                        </li>
+                        <li className='mx-5 text-center fsize'>
+                            <HashLink smooth to="/#hogenakkal" className="text-decoration-none  text-primary" >Hogenakakal</HashLink>
+                        </li>
+                    </ul>
+                </nav>
                 <section id='chennai' className=''>
                     <h3 className='text-start ' > <HashLink smooth to='/#home' className="text-decoration-none text-dark " >01. Chennai</HashLink></h3>
                     <div className="chennai-content row mb-5">
@@ -169,7 +173,7 @@ const Home = () => {
                             </div>
                         </div >
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={chennaicard2} className="card-img-top" alt="Marina Beach" />
+                            <img src={chennaicard2} className="card-img-top" alt="MGR film city Chennai" />
                             <div className="card-body">
                                 <h5 className="card-title ">MGR Flim City
                                 </h5>
@@ -178,7 +182,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={chennaicard3} className="card-img-top" alt="Marina Beach" />
+                            <img src={chennaicard3} className="card-img-top" alt="Marundeswarar" />
                             <div className="card-body">
                                 <h5 className="card-title">Marundeeswarar Temple</h5>
                                 <p className="card-text">The magnificent Marundeeswarar Temple, in Tiruvanmiyur, near Chennai has the temple deity Shiva...</p>
@@ -186,7 +190,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-3  mb-4 p-0 card">
-                            <img src={chennaicard4} className="card-img-top" alt="Marina Beach" />
+                            <img src={chennaicard4} className="card-img-top" alt="Breezy Beach" />
                             <div className="card-body">
                                 <h5 className="card-title">Breezy Beach
                                 </h5>
@@ -201,7 +205,7 @@ const Home = () => {
                     <h3 className='text-start ' ><HashLink smooth to='/#home' className="text-decoration-none text-dark " >02. Rameswaram</HashLink></h3>
                     <div className="chennai-content row mb-5">
 
-                        <img src={rameswaram} className='col-lg-6 col-sm-12' alt="Chennai" />
+                        <img src={rameswaram} className='col-lg-6 col-sm-12' alt="rameswaram" />
 
                         <div className="col-lg-6  text-end m-0">
                             <h6 className='fw-bold text-start text-capitalize mt-3 mb-3'>"The Bridge on the Indian Ocean"</h6>
@@ -218,7 +222,7 @@ const Home = () => {
 
                     <div className='row d-flex justify-content-evenly text-start mb-5'>
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={rameswaramcard1} className="card-img-top" alt="Marina Beach" />
+                            <img src={rameswaramcard1} className="card-img-top" alt="Dhanushkodi" />
                             <div className="card-body">
                                 <h5 className="card-title">Dhanushkodi Temple</h5>
                                 <p className="card-text"> Dhanushkodi was until a few years ago a wonderful temple on the southern tip of India. However, due to a...</p>
@@ -226,7 +230,7 @@ const Home = () => {
                             </div>
                         </div >
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={rameswaramcard2} className="card-img-top" alt="Marina Beach" />
+                            <img src={rameswaramcard2} className="card-img-top" alt="Lakshanamana Temple" />
                             <div className="card-body">
                                 <h5 className="card-title ">Lakshmana Temple
                                 </h5>
@@ -236,7 +240,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={rameswaramcard3} className="card-img-top" alt="Marina Beach" />
+                            <img src={rameswaramcard3} className="card-img-top" alt="Ramswaram temple" />
                             <div className="card-body">
                                 <h5 className="card-title">Rameswaram Temple
                                 </h5>
@@ -245,7 +249,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-3  mb-4 p-0 card">
-                            <img src={rameswaramcard4} className="card-img-top " alt="Marina Beach" />
+                            <img src={rameswaramcard4} className="card-img-top " alt="Villoondi tirtham" />
                             <div className="card-body">
                                 <h5 className="card-title">Villoondi Tirtham
                                 </h5>
@@ -258,10 +262,10 @@ const Home = () => {
                     </div>
                 </section>
                 <section id='kodaikanal' className=''>
-                    <h3 className='text-start ' > <HashLink smooth to='/#home' className="text-decoration-none text-dark " >03. Kodaikanl</HashLink></h3>
+                    <h3 className='text-start ' > <HashLink smooth to='/#home' className="text-decoration-none text-dark " >03. Kodaikanal</HashLink></h3>
                     <div className="chennai-content row mb-5">
 
-                        <img src={kodaikanal} className='col-lg-6 col-sm-12' alt="Chennai" />
+                        <img src={kodaikanal} className='col-lg-6 col-sm-12' alt="kodaikanal" />
 
                         <div className="col-lg-6  text-end m-0">
                             <h6 className='fw-bold text-start text-capitalize mt-3 mb-3'>“The Princess of Hill Stations”</h6>
@@ -288,7 +292,7 @@ const Home = () => {
 
                     <div className='row d-flex justify-content-evenly text-start mb-5'>
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={kodaikanalcard1} className="card-img-top" alt="Marina Beach" />
+                            <img src={kodaikanalcard1} className="card-img-top" alt="green Valley View" />
                             <div className="card-body">
                                 <h5 className="card-title">Green Valley View
                                 </h5>
@@ -298,7 +302,7 @@ const Home = () => {
                             </div>
                         </div >
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={kodaikanalcard2} className="card-img-top" alt="Marina Beach" />
+                            <img src={kodaikanalcard2} className="card-img-top" alt="kodai lake" />
                             <div className="card-body">
                                 <h5 className="card-title ">Kodai Lake
                                 </h5>
@@ -308,7 +312,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-3 p-0 mb-4 card">
-                            <img src={kodaikanalcard3} className="card-img-top" alt="Marina Beach" />
+                            <img src={kodaikanalcard3} className="card-img-top" alt="Bear shpow falls" />
                             <div className="card-body">
                                 <h5 className="card-title">Bear Shola Falls </h5>
                                 <p className="card-text">Located at a mere distance of 2 kilometres from the Kodaikanal Lake, the Bear Shola Falls is a popular..</p>
@@ -316,7 +320,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-3  mb-4 p-0 card">
-                            <img src={kodaikanalcard4} className="card-img-top" alt="Marina Beach" />
+                            <img src={kodaikanalcard4} className="card-img-top" alt="Pillar Rocks" />
                             <div className="card-body">
                                 <h5 className="card-title">Pillar Rocks
                                 </h5>
