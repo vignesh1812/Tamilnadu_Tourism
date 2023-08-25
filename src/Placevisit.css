@@ -1,0 +1,48 @@
+p{
+    text-indent: 60px;
+    text-align: justify;
+}
+
+.content p{
+    text-indent: 60px;
+    text-align: justify;
+
+}
+
+.fsizepara{
+    font-size: 500;
+}
+
+.imgpara{
+    text-align: center;
+    text-indent: 0;
+
+}
+
+@media (max-width:1400px){
+  
+}
+@media (max-width:1300px){
+ 
+}
+@media (max-width:1200px){
+   
+}
+
+@media (max-width:992px){
+   
+}
+
+
+@media (max-width:768px){
+   
+}
+@media (max-width:578px){
+   
+}
+@media (max-width:320px){
+ 
+   
+
+  
+}
