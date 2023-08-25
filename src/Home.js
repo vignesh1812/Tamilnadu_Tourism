@@ -1,5 +1,5 @@
 import React from 'react'
-import carousel1 from "./images/banner1.jpg"
+import carousel1 from "./images/banner.1.jpg"
 import carousel2 from "./images/pic1.jpeg"
 import carousel3 from "./images/pic2.jpeg"
 import carousel4 from "./images/pic3.jpeg"
@@ -55,7 +55,7 @@ import Hogenakalcard2 from "./images/hogenakkal2..jpeg"
 import Hogenakalcard3 from "./images/hogenakkal3.jpeg"
 import Hogenakalcard4 from "./images/hokenakkal4..jpeg"
 import { HashLink } from 'react-router-hash-link';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import './Home.css';
 
 
@@ -98,12 +98,13 @@ const Home = () => {
             </div>
             <br />
 
-            <p className='text-center fsizepara fs-4 m-0   text-capitalize' id='home'>tourist places to tamilnadu</p>
-            <p className='text-center fsizepara fs-4  mb-5 text-capitalize'>here are the top places to visit in tamilnadu in 2023</p>
+            <p className='text-center fsizepara fs-4 m-0   text-capitalize' id='home'>tourist places to tamilnadu <br />here are the top places to visit in tamilnadu in 2023</p>
+            <p className='text-lg-center   fsizepara fs-4  mb-5 text-capitalize'></p>
 
-            <BrowserRouter>
+            
                 <nav className='navlinks mb-4'>
-                    <ul className='list-unstyled fs-5  '>
+                        
+                    <ul className='list-unstyled row-cols flex-wrap fs-5  '>
                         <li className='mx-5 text-center fsize'>
                             <HashLink smooth to='/#chennai' className="text-decoration-none text-primary " >Chennai</HashLink>
                         </li>
@@ -121,8 +122,6 @@ const Home = () => {
                         <li className='mx-5 text-center fsize'>
                             <HashLink smooth to="/#theni" className="text-decoration-none " >Theni</HashLink>
                         </li>
-                    </ul>
-                    <ul  className='list-unstyled  fs-5  '>
                         
                         <li className='mx-5 text-center fsize'>
                             <HashLink smooth to="/#rameswaram" className="text-decoration-none text-primary " >Rameswaram</HashLink>
@@ -141,6 +140,7 @@ const Home = () => {
                         </li>
                     </ul>
                 </nav>
+            
                 <section id='chennai' className=''>
                     <h3 className='text-start ' > <HashLink smooth to='/#home' className="text-decoration-none text-dark " >01. Chennai</HashLink></h3>
                     <div className="chennai-content row mb-5">
@@ -859,7 +859,6 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-            </BrowserRouter>
         </div>
     )
 }
