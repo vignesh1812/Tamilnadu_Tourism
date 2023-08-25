@@ -4,7 +4,9 @@
 }
 
 
-
+#navigation{
+   border-bottom: 3px solid rgb(131, 130, 130);
+}
 
 
 @media (max-width:768px){
@@ -14,7 +16,7 @@
 
 
     #icons{
-          font-size: 2rem;
+          font-size: 1rem;
     }
 
 }
