@@ -98,7 +98,7 @@ const Home = () => {
             </div>
             <br />
 
-            <p className='text-center fsizepara fs-4 m-0   text-capitalize' id='home'>tourist places to tamilnadu <br />here are the top places to visit in tamilnadu in 2023</p>
+            <p className='text-center placetitle fsizepara fs-4 m-0   text-capitalize' id='home'>tourist places to tamilnadu <br />here are the top places to visit in tamilnadu in 2023</p>
             <p className='text-lg-center   fsizepara fs-4  mb-5 text-capitalize'></p>
 
             
@@ -159,7 +159,7 @@ const Home = () => {
                         </div>
 
                     </div>
-                    <p className=' fsizepara fs-4  mb-4 text-capitalize'>Must visit places in Chennai</p>
+                    <p className='placetitle  fsizepara fs-4 text-center  mb-4 text-capitalize'>Must visit places in Chennai</p>
 
                     <div className='row d-flex justify-content-evenly text-start mb-5'>
                         <div className="col-lg-3 p-0 mb-4 card">
@@ -169,7 +169,7 @@ const Home = () => {
                                 </h5>
                                 <p className="card-text">Situated in the city of Chennai in Tamil Nadu, Marina Beach is a natural urban beach along the
                                     Bay of Bengal...</p>
-                                    <br />
+                                    
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div >
@@ -179,7 +179,7 @@ const Home = () => {
                                 <h5 className="card-title ">MGR Flim City
                                 </h5>
                                 <p className="card-text">Having been established in the year 1994, a considerably new structure, the MGR Film city is managed..</p>
-                                <br />
+                                
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ const Home = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Marundeeswarar Temple</h5>
                                 <p className="card-text">The magnificent Marundeeswarar Temple, in Tiruvanmiyur, near Chennai has the temple deity Shiva...</p>
-                                <br />
+                                
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -229,7 +229,7 @@ const Home = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Dhanushkodi Temple</h5>
                                 <p className="card-text"> Dhanushkodi was until a few years ago a wonderful temple on the southern tip of India. However, due to a...</p>
-                                <br />
+                                
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div >
@@ -249,7 +249,7 @@ const Home = () => {
                                 <h5 className="card-title">Rameswaram Temple
                                 </h5>
                                 <p className="card-text">A perfect blend of mind- boggling architecture and spiritual significance, Rameshwaram Temple, also...</p>
-                                <br />
+                                
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -454,7 +454,7 @@ const Home = () => {
                                 <h5 className="card-title">Thiruvalluvar Status
                                 </h5>
                                 <p className="card-text">Dedicated to the accomplished philosopher and poet Thiruvalluvar, this beautiful statue finds itself...</p>
-                                <br />
+                                
 
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
@@ -467,7 +467,7 @@ const Home = () => {
                                 <p className="card-text">
                                     Located at a distance of about 55 kilometers from Kanyakumari, the cascading waters of the Thirparappu...
                                 </p>
-                               <br />
+                               
 
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
@@ -589,7 +589,7 @@ const Home = () => {
                                 </h5>
                                 <p className="card-text">Often known as the "High Wavy Mountains", Meghamalai is a petit yet beautiful place located in the...
                                 </p>
-                                <br />
+                               
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -611,7 +611,7 @@ const Home = () => {
                                 <p className="card-text">
                                     Thirumalai Nayakar Palace was erected in 1636 AD in the city of Madurai, by King Thirumalai Nayak...
                                 </p>
-                                   <br />
+                                  
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -663,7 +663,7 @@ const Home = () => {
                                 <h5 className="card-title ">Botanical Garden
                                 </h5>
                                 <p className="card-text">Any tourist who is interested in gods gift to this planet, the wondrous flora, and in knowing about various...                                </p>
-                                <br />
+                                
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
@@ -675,7 +675,7 @@ const Home = () => {
                                     The most alluring aspect of Yercaud is its big yet natural lake very popularly known as the Emerald Lake...
 
                                 </p>
-                                <br />
+                                
                                 <a href="/" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
