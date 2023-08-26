@@ -16,7 +16,19 @@
 
 
     #icons{
-          font-size: 1rem;
+          font-size: 1.5rem;
+    }
+
+}
+@media (max-width:576px){
+#navigation{
+    width: 100%;
+}
+
+
+    #icons{
+          font-size: 1.8rem;
+          border: none;
     }
 
 }
