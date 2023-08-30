@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+#food p{
+    text-indent: 60px;
+    text-align: justify;
+}
+
+.card{
+    width:460px;
+}
+
+#cardy{
+    margin-left: 38px;
+}
+.img1{
+   height: 200px;
+}
+
+.marimg{
+    margin-top: 70px;
+}
+
+@media (max-width:768px){
+   
+    .marimg{
+        margin-top: 30px;
+    }
+
+    .marimgboth img{
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .card{
+        width:430px;
+        box-shadow:'2px 2px 6px black';
+    }
+    
+    #cardy{
+        margin-left: 38px;
+    }
+    
+
+}
+@media (max-width:578px){
+   
+   .marimgboth img{
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .card{
+        width:430px;
+        margin-top: 20px;
+    }
+    
+    #cardy{
+        margin-left: 8px;
+    }
+.main{
+    margin-top: 60px;
+}
+    
+.theni{
+    margin-top: 20px;
+}
+    
+    
+}
+@media (max-width:320px){
+ 
+    .marimgboth img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+#cardy{
+    margin-left: 4px;
+}
+
+
+.theni{
+    margin-top: 20px;
+}
+
+.card{
+    width:400px;
+}
+  
+}
