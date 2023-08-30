@@ -13,7 +13,7 @@ function Time() {
 
             <div className="text-center text-lg-start my-5">
                 <h4 className=''>TAMILNADU TOURISM</h4>
-                <h3 className=''>Best Time To Visit Packages </h3>
+                <h3 className=''>Best Time To Visit</h3>
             </div>
             <div className="row">
                 <div className="col-sm-12 col-lg-6">
@@ -24,7 +24,7 @@ function Time() {
                 </div>
                 <div className="col-lg-6">
 
-                    <p className='text-center text-capitalize fs-5 fw-bold mb-5 '>More about best time to travel to tamilnadu</p>
+                    <h5 className='text-center text-capitalize  mb-5 '>More about best time to travel to tamilnadu</h5>
 
                     <div className="accordion" id="accordionBasic">
                         <div className="accordion-item">
@@ -83,7 +83,7 @@ function Time() {
             </div>
             <div className="text-center my-5">
                 <h3 className='text-uppercase'>tamilnadu tourism</h3>
-                <h6 className='text-capitalize fw-bold'>best time to visit</h6>
+                <h4 className='text-capitalize fw-bold'>best time to visit</h4>
             </div>
             <div className='content'>
                 {times.map((time,i) => (
@@ -91,15 +91,15 @@ function Time() {
                     time.id % 2 === 1 ? (
 
 
-                        <div className='contanier odd mb-4' key={i} id={time.title}>
+                        <div className='contanier ' key={i} id={time.title}>
 
-                            <h3 className='my-4 text-center text-lg-start'>{time.heading}</h3>
+                            <h3 className=' mb-4 text-center text-lg-start' style={{marginTop:80}} >{time.heading}</h3>
 
-                            <div className="row mb-5">
+                            <div className="row">
 
 
                                 <div className="col-sm-12  col-lg-6">
-                                    <h4 className='text-center mb-4 text-sm-start'>{time.visitparahead}</h4>
+                                    <h5 className='text-center mb-4 text-sm-start'>{time.visitparahead}</h5>
                                     <p className="tindent my-3">
                                         {time.visitpara1}
                                     </p>
@@ -112,27 +112,27 @@ function Time() {
 
                                         <div className="card w-100 h-100 cardz" >
                                             <div className="card-header bg-white d-flex justify-content-between align-items-center my-3">
-                                                <h4 className='text-capitalize text-center fs-sm-4 fw-bold me-4'>
+                                                <h5 style={{wordSpacing:5}}  className='text-capitalize text-center fs-sm-4  fw-bold me-4'>
                                                     more about best time to travel {time.title}
-                                                </h4>
+                                                </h5>
                                                 <button className='btn btn-close me-auto'></button>
 
                                             </div>
-                                            <div className="card-body d-flex justify-content-center w-100 h-100 my-5">
-                                                <div className="row">
+                                            <div className="card-body p-0">
+                                                <div className="row d-flex justify-content-center">
 
-                                                    <div className="col-4">
-                                                        <img src={require(`./Gallery/${time.img1}`)} className='img-fluid ' alt={time.img1name} />
-                                                        <p className='text-center'>{time.img1name}</p>
+                                                    <div className="col-3">
+                                                        <img src={require(`./Gallery/${time.img1}`)} style={{width:100,height:160}} className='img-fluid ' alt={time.img1name} />
+                                                        <p className='text-center text-wrap' >{time.img1name} </p>
                                                     </div>
 
-                                                    <div className="col-4">
-                                                        <img src={require(`./Gallery/${time.img2}`)} className='img-fluid ' alt={time.img2name} />
+                                                    <div className="col-3">
+                                                        <img src={require(`./Gallery/${time.img2}`)} style={{width:100,height:160}} className='img-fluid ' alt={time.img2name} />
                                                         <p className='text-center'>{time.img2name}</p>
 
                                                     </div>
-                                                    <div className="col-4">
-                                                        <img src={require(`./Gallery/${time.img3}`)} className='img-fluid ' alt={time.img3name} />
+                                                    <div className="col-3">
+                                                        <img src={require(`./Gallery/${time.img3}`)} style={{width:100,height:160}} className='img-fluid ' alt={time.img3name} />
                                                         <p className='text-center'>{time.img3name}</p>
                                                     </div>
                                                 </div>
@@ -171,7 +171,7 @@ function Time() {
 
                         </div>
                     ) : (
-                        <div className='container even' key={time.i} id={time.title} >
+                        <div className='container mt-3' key={time.i} id={time.title} >
                             <div className="modalz">
                                         <div className="offcanvas offcanvas-end" tabIndex="-1" id={`offcanvasRight${time.title}`} aria-labelledby="offcanvasRightLabel">
                                             <div className="offcanvas-header">
@@ -189,36 +189,36 @@ function Time() {
                                         </div>
                                     </div>
 
-                            <h3 className='text-center mt-5 text-lg-start'>{time.heading}</h3>
+                            <h3 className=' text-center mb-4 text-lg-start' style={{marginTop:100}}>{time.heading}</h3>
 
-                            <div className="row mb-5 " >
+                            <div className="row mb-2" >
 
                                 <div className="col-lg-6 col-sm-12 h-100 mb-5 ">
                                     <div className="" >
 
-                                        <div className="card w-100 cardz" >
-                                            <div className="card-header bg-white d-flex justify-content-between align-items-center my-3">
-                                                <h4 className='text-capitalize text-center fs-sm-4 fw-bold me-4'>
+                                        <div className="card w-100 " >
+                                            <div className="card-header bg-white d-flex j2ustify-content-between align-items-center my-3">
+                                                <h4 style={{wordSpacing:5}} className='text-capitalize text-center fs-sm-4 fw-bold  me-4'>
                                                     more about best time to travel {time.title}
                                                 </h4>
                                                 <button className='btn btn-close me-auto'></button>
 
                                             </div>
-                                            <div className="card-body d-flex justify-content-evenly align-items-center my-5 p-4">
-                                                <div className="row">
+                                            <div className="card-body  p-1" >
+                                                <div className="row d-flex justify-content-center">
 
-                                                    <div className="col-4">
-                                                        <img src={require(`./Gallery/${time.img1}`)} className='img-fluid ' alt={time.img1name} />
+                                                    <div className="col-3">
+                                                        <img src={require(`./Gallery/${time.img1}`)} style={{width:100,height:160}} className='img-fluid ' alt={time.img1name} />
                                                         <p className='text-center'>{time.img1name}</p>
                                                     </div>
 
-                                                    <div className="col-4">
-                                                        <img src={require(`./Gallery/${time.img2}`)} className='img-fluid ' alt={time.img2name} />
+                                                    <div className="col-3">
+                                                        <img src={require(`./Gallery/${time.img2}`)} style={{width:100,height:160}} className='img-fluid ' alt={time.img2name} />
                                                         <p className='text-center'>{time.img2name}</p>
 
                                                     </div>
-                                                    <div className="col-4">
-                                                        <img src={require(`./Gallery/${time.img3}`)} className='img-fluid ' alt={time.img3name} />
+                                                    <div className="col-3">
+                                                        <img src={require(`./Gallery/${time.img3}`)} style={{width:100,height:160}} className='img-fluid ' alt={time.img3name} />
                                                         <p className='text-center'>{time.img3name}</p>
                                                     </div>
                                                 </div>
@@ -233,7 +233,7 @@ function Time() {
                                     </div>
                                 </div>
                                 <div className=" col-lg-6">
-                                    <h4 className='text-center mb-4 text-sm-start'>{time.visitparahead}</h4>
+                                    <h5 className='text-center  text-sm-start'>{time.visitparahead}</h5>
                                     <p className="tindent my-3">
                                         {time.visitpara1}
                                     </p>
