@@ -1,0 +1,76 @@
+.package-content p{
+    text-indent: 60px;
+    text-align: justify;
+}
+
+.packs .card{
+    width: 22rem;
+    cursor: pointer;
+}
+ ul li{
+    margin-top: 3px;
+ }
+ .packsss nav ul li:active{
+    border-bottom: 3px solid black;
+    border-radius: 1px;
+ }
+
+ #packs .carousel-item img{
+    height: 212px;
+ }
+
+.row h2{
+    cursor: pointer;
+    font-weight: bold;
+}
+.row h2:active{
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+
+ @media (max-width:1300px){
+  
+ }
+ @media (max-width:1200px){
+    
+ }
+ 
+ @media (max-width:992px){
+    
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card{
+        margin: auto;
+        margin-top: 20px;
+       }
+  
+ }
+ 
+ 
+ @media (max-width:768px){
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ }
+ @media (max-width:578px){
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+ }
+ @media (max-width:320px){
+  
+    .card{
+        margin: auto;
+        margin-top: 10px;
+       }
+ 
+   
+ }
+ 
